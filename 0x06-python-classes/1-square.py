@@ -5,11 +5,11 @@
 class Square():
     """Square class"""
 
-    def __intit__(self, size):
+    def __init__(self, size):
         """
-        Inialize a square
-        
+        Initializes a Square instance.
+
         Args:
-            size (int) : size of the square
+             size (int): size of the square
         """
         self.__size = size
