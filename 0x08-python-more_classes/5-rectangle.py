@@ -63,6 +63,5 @@ class Rectangle:
         """Returns a string representation"""
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
 
-     def __del__(self):
-         """Sets the nature of Rectangle when an instance is deleted"""
-         print("Bye rectangle...")
+    def __del__(self):
+        print("Bye rectangle...")
